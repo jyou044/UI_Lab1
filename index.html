@@ -36,16 +36,21 @@
    </h2> <br>
    
    <form name="User Interface Questionaire" method="POST">
-    
+     <div>
+     <center>
      What is your favourite feature of the Toronto Bluejays Website?:<br>
      <br>
      <textarea name="comment[body]" rows="10" cols="50" wrap="physical" id="fav_val"></textarea>
      <br>
+       </div>
+     <div>
      <br>
      Were you able to find the player information/highlight videos you were looking for?:<br>
      <br> 
       <input type="radio"name="choice"value="yes">Yes<br>
       <input type="radio"name="choice" value="no">No<br>
+       </div>
+       <div>
      <br>
      Which section of the website do you think requires improvement? (Choose one):<br>
      <br>
@@ -53,7 +58,8 @@
       <input type="radio" name="improvement" value="layout">Overall Layout of the website<br>
       <input type="radio" name="improvement" value="iconbar">The Icon Bar<br>
       <input type="radio" name="improvement" value="colour">The colour of the website<br>
-     
+       </div>
+      <div>
      <br>
      
      If you had the choice, what colours other than blue would you have the website be?:<br>
@@ -62,11 +68,11 @@
      <input type="checkbox" name="Orange" value="Orange">Orange<br>
      <input type="checkbox" name="Yellow" value="Yellow">Yellow<br>
      <input type="checkbox" name="noChange" value="No Change">No Change<br>
-     
+       </div>
+       <div>
      <br>
      
      <label class="statement">Do you think that the Toronto Bluejays website is the best baseball website?</label>
-    <ul class='likert'>
       <li>
         <input type="radio" name="likert" value="strong_agree">
         <label>Strongly agree</label>
@@ -87,21 +93,22 @@
         <input type="radio" name="likert" value="strong_agree">
         <label>Strongly disagree</label>
       </li>
-    </ul>
-     
+  
+       </div>
+       <div>
      Additional Comments:<br>
      <br>
      <textarea name="comment[body]" rows="10" cols="50" wrap="physical" id="comment_text_area"></textarea>
      <br>
-      
+       </div>
      <div class="buttons">
       <button class="submit">Submit</button>
     </div>
      
      <footer>
-       <p>Website designed by: Jason You, Student #: 300056239</p>
+       <p><i>Website designed by: Jason You<br> Student #: 300056239</i></p>
      </footer>
-     
+     </center>
    </form>
  </body>
 </html>
