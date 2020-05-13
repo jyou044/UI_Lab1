@@ -37,6 +37,7 @@
    <form name="User Interface Questionaire" method="POST">
     
      What is your favourite feature of the Toronto Bluejays Website?:<br>
+     <br>
      <textarea name="comment[body]" rows="10" cols="50" wrap="physical" id="fav_val"></textarea>
      <br>
      <br>
@@ -63,10 +64,37 @@
      
      <br>
      
+     <label class="statement">Do you think that the Toronto Bluejays website is the best baseball website?</label>
+    <ul class='likert'>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Agree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Neutral</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="disagree">
+        <label>Disagree</label>
+      </li>
+      <li>
+        <input type="radio" name="likert" value="strong_agree">
+        <label>Strongly disagree</label>
+      </li>
+    </ul>
+     
      Additional Comments:<br>
+     <br>
      <textarea name="comment[body]" rows="10" cols="50" wrap="physical" id="comment_text_area"></textarea>
      <br>
-    
+      
+     
+     
    </form>
  </body>
 </html>
